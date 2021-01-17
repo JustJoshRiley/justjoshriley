@@ -1,3 +1,3 @@
-document.on("load", function(){
-    set
-});
+window.onload = function(){
+    document.getElementById('loading-screen').style.display = "none"; 
+};
