@@ -1,0 +1,254 @@
+body {
+    background-color:rgb(218, 218, 218);
+}
+
+/* resume modal  */
+.modal-content-resume {
+    height: 98vh;
+    width: 50vw;
+    background-color: white;
+    margin-left: -80%;
+    top: -20px;
+    position: absolute;
+}
+
+/* resume modal  */
+.modal-image-resume {
+    height: 95vh;
+    width: auto;
+    margin-left: 10%;
+    margin-top: -11%;
+}
+
+/* project modal */
+.projectsModal {
+    height: 90vh;
+    width: 92vw;
+    background-color: white;
+    position: absolute;
+}
+
+.projects-close-button {
+    margin-left: -75%;
+}
+
+/* website content  */
+.container {
+    height: 90vh;
+    width: 95vw;
+    background-color: white;
+    margin-left: 4%;
+    margin-top: 2.5%;
+    position: absolute;
+}
+
+.left {
+    margin-left: 2%;
+}
+
+.intro {
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.card-header {
+    width: 50vw;
+    height: 90vh;
+    background-color: transparent;
+    position: fixed;
+    margin-left: 2.5%;
+    margin-top: 2.5%;
+    border-bottom: none;
+    float: left;
+    position:fixed;
+}
+.memoji-img {
+    height: 35vh;
+    width: auto;
+    display: block;
+    margin-top: 2.5%;
+}
+
+.header-info {
+    font-weight: 700;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 72px;
+    font-style: normal;
+    line-height: 87px;
+    color:#282745;
+    width: 47vw;
+    height: 32.5vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.5%;
+    text-align: left;
+}
+
+
+.social-links {
+    margin-top: 5%;
+    display: flex;
+    color:#738f8f;
+}
+
+.social-link {
+    margin-right: 5%;
+    z-index: 4;
+}
+
+a:link {
+    color:#516464;
+}
+a:visited {
+    color: #4a5c5c;
+}
+
+a:hover {
+    color: #82a1a1;
+    font-weight: 700;
+}
+
+a:active {
+    color:#738f8f;
+}
+
+/* right side  */
+.info {
+    margin-top: 0%;
+    z-index: 3;
+    background-color: transparent;
+    height: 90vh;
+    width: 45vw;
+    margin-left: 54.75%;
+    position: absolute;
+    overflow-y: scroll;
+}
+
+.career-card-container {
+    height: 90vh;
+    
+    margin-left: 8%;
+}
+
+.career-card {
+    height: 30vh;
+    width: 30vw;
+    background-color:#c4c7c9;
+    border-radius: 25px;
+    padding-left: 6%;
+    padding-right: 2.5%;
+    padding-top: 1%;
+    margin-top: 12%;
+}
+
+.career-card-one {
+    margin-top: 8%;
+}
+.career-card-one-text {
+    font-family: 'acumin-pro',sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 25vw;
+    line-height: 33px;
+    text-align: left;
+    font-size: 24px;
+    color: #0c1e27;
+    margin-top: 5%;
+}
+
+.info-header {
+    margin-top: 5%;
+    font-size: 40px;
+    line-height: 34px;
+    font-weight: 700;
+    font-family: 'Space Grotesk', sans-serif;
+    color: #0c1e27;
+}
+
+.info-sec {
+    margin-top: 5%;
+    margin-left: -60%;
+    font-size: 40px;
+    line-height: 34px;
+    font-weight: 700;
+    font-family: 'Space Grotesk', sans-serif;
+    color: #183c4e;
+}
+
+.cube-container {
+	max-width: 200px;
+    margin-right: 28%;
+    margin-top: 5%;
+}
+
+.clearfix::after {
+	content: " ";
+	display: table;
+	clear: both;
+}
+
+@media (min-width: 1025px) {
+	.cube-container:first-child {
+		margin-left: 0;
+	}
+	.cube-container:last-child{
+		float: right;
+	}
+	.content-cube {
+		max-width: 900px;
+		margin: auto;
+	}
+}
+
+.cube-container {
+	box-shadow: 0 18px 40px 5px rgba(0,0,0,.4);
+    perspective: 1200px;
+}
+
+.photo-cube {
+    transition: transform 2s ease-in-out; 
+    width: 220px;
+    height: 125px;
+    transform-style: preserve-3d;
+}
+
+.photo-cube:hover {
+transform: rotateY(-270deg);
+}
+
+.front-cube,
+.back-cube,
+.left-cube,
+.right-cube {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+}
+
+.front-cube {
+    transform: translate3d(0,0,110px);
+}
+
+.back-cube {
+    transform: translateZ(-110px) rotateY(270deg);
+    transform-origin: center left;
+}
+
+.left-cube {
+    transform: rotateY(-270deg) translate3d(110px, 0, 0);
+    transform-origin: top right;
+}
+
+.right-cube {
+    transform: translateZ(-110px) rotateY(180deg);
+}
+
+/* for resume pic */
+.resume {
+    height: auto;
+    width: 8.5vw;
+    margin-left: 30%;
+}
