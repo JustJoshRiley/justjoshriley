@@ -26,6 +26,7 @@
             <div id="preloader">
                 <div id="loader"></div>
             </div>
+            <p class="memory-text">08-24-16</p>
         </div>
 
         <!--  projects modal  -->
@@ -36,7 +37,7 @@
                         <div class="modal-dialog">
                             <div class="modal-content-projects">
                                 <div class="modal-body-projects">
-                                    <button class="btn projects-close-button" data-dismiss="modal"><img height="50px" width="50px" style="margin-left: -50%;" src="./330_menu_17_morph_outline.gif" alt="X"></button>
+                                    <button class="btn projects-close-button" data-dismiss="modal"><img height="50px" width="50px" style="margin-left: -50%;" src="./static/330_menu_17_morph_outline.gif" alt="X"></button>
                                     <div>
 
                                     </div>
@@ -154,21 +155,46 @@
                         <div class="col career-card career-card-three">
                             <div class="row info-all">
                                 <h1 class="col info-header">04.</h1>
-                                <h1 class="col info-sec">Currently</h1>
+                                <h1 class="col info-sec">Contact</h1>
                             </div>
-                            <ul>
-                                <li>
-                                    <p class="career-card-one-text">I study at University</p>
-                                </li>
-                                <li>
-                                    <p class="career-card-one-text">I manage a Coaching Firm</p>
-                                </li>
-                                <li>
-                                    <p class="career-card-one-text">I Hike and love Photography</p>
-                                </li>
-                            </ul>
+                            <div class="row form">
+                                <div class="col">
+                                    <form method="POST" action="https://api.formcake.com/api/form/f661e74a-31dc-4ed3-8644-b423afc9ce06/submission">
+                                        <div class="md:flex md:-mx-2 form-input">
+                                            <div class="email-form">
+                                                <!-- <label for="email">Email</label> -->
+                                                <input
+                                                    class="c-input w-full mb-2 md:w-1/2 md:mx-2"
+                                                    name="email"
+                                                    type="email"
+                                                    required
+                                                    placeholder="john.doe@gmail.com"
+                                                />
+                                            </div>
+
+                                            <div class="feedback-form">
+                                                <!-- <label for="feedback">MSG</label> -->
+                                                <input
+                                                    class="c-input w-full mb-2 md:w-1/2 md:mx-2"
+                                                    name="feedback"
+                                                    type="text"
+                                                    required
+                                                    placeholder="What's on your mind..."
+                                                />
+                                            </div>
+
+                                        </div>
+
+                                        <input class="c-submit w-full" type="submit" value="Submit" />
+                                        <label for="submit"></label>
+                                    </form>
+                                </div>
+                            </div>
                         </div>
                     </div>
+                </div>
+                <div class="col">
+                    <button class="home-button" onClick="window.location.reload();">Home</button>
                 </div>
 
             </div>
