@@ -47,6 +47,7 @@
 
     .memoji-img {
         margin-left: 5%;
+        margin-top: 0%;
         height: 35vh;
         width: auto;
         position: absolute;
@@ -59,7 +60,7 @@
         line-height: 140%;
         width: 90vw;
         margin-left: 0;
-        margin-top: 5%;
+        /* margin-top: 5%; */
         text-align: center;
     }
 
