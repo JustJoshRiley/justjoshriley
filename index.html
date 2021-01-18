@@ -4,13 +4,11 @@
         
         <!-- Required meta tags -->
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         
         <!-- Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
         <link href="./static/styles.css" rel="stylesheet">
-        <!-- css media queries  -->
-        <link href="./static/screen-size.css" rel="stylesheet">
 
         <!-- adobe font  -->
         <link rel="stylesheet" href="https://use.typekit.net/nsf5juc.css">
@@ -53,7 +51,7 @@
 
 
         <!--  resume modal  -->
-        <!-- <div class="container">
+        <div class="container">
             <div class="row">
                 <div class="col">
                     <div class="modal resumeModal fade" id="resumeModal">
@@ -74,7 +72,7 @@
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
 
         <!-- webpage content  -->
         <div class="container">
@@ -111,7 +109,7 @@
 
                 <div class="container info">
 
-                    <div class="row buffer"></div>
+                    <div class="row"></div>
 
                     <div class="col career-card-container">
                         <div class="col career-card career-card-one">
@@ -122,13 +120,13 @@
                             <p class="career-card-one-text">I'm a Computer Science Student in San Francisco, California<img height="auto" width="30px" src="./static/iconfinder_flag_34906.png"> Attending <a style="text-decoration:none; outline: none;" href="https://www.makeschool.com/portfolio/joshua-riley">Make School.</a> </p>
                         </div>
 
-                        <div class="col career-card career-card-two">
+                        <div class="col career-card">
 
                             <div class="row info-all">
                                 <h1 class="col info-header">02.</h1>
                                 <h1 class="col info-sec">Projects</h1>
                             </div>
-                            
+
                             <div class="content-cube clearfix">
                                 <a data-toggle="modal" style="text-decoration:none; outline: none;" data-target="#projectsModal" href="#">
                                     <div class="cube-container">
@@ -149,22 +147,22 @@
                                 <h1 class="col info-header">03.</h1>
                                 <h1 class="col info-sec">Resume</h1>
                             </div>
-                            <a style="text-decoration:none; outline: none;" >
-                                <img class="resume" href="https://drive.google.com/file/d/1ipY5KQ9k8Cmn8GBFoOLvYTxEID2PDTR0/view?usp=sharing" src="./static/Screen Shot 2021-01-16 at 4.53.06 PM.png">
+                            <a data-toggle="modal" style="text-decoration:none; outline: none;" data-target="#resumeModal" href="">
+                                <img class="resume" src="./static/Screen Shot 2021-01-16 at 4.53.06 PM.png">
                             </a> 
                         </div>
 
-                        <div class="col career-card career-card-four">
+                        <div class="col career-card career-card-three">
                             <div class="row info-all">
                                 <h1 class="col info-header">04.</h1>
                                 <h1 class="col info-sec">Contact</h1>
                             </div>
-                            <div class="row form ">
+                            <div class="row form">
                                 <div class="col">
                                     <form method="POST" action="https://api.formcake.com/api/form/f661e74a-31dc-4ed3-8644-b423afc9ce06/submission">
                                         <div class="md:flex md:-mx-2 form-input">
                                             <div class="email-form">
-                                                <label for="email"></label>
+                                                <!-- <label for="email">Email</label> -->
                                                 <input
                                                     class="c-input w-full mb-2 md:w-1/2 md:mx-2"
                                                     name="email"
@@ -175,7 +173,7 @@
                                             </div>
 
                                             <div class="feedback-form">
-                                                <!-- <label for="feedback"></label> -->
+                                                <!-- <label for="feedback">MSG</label> -->
                                                 <input
                                                     class="c-input w-full mb-2 md:w-1/2 md:mx-2"
                                                     name="feedback"
