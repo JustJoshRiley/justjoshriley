@@ -59,11 +59,12 @@
         line-height: 140%;
         width: 90vw;
         margin-left: 0;
+        margin-top: 5%;
         text-align: center;
     }
 
     .social-links {
-        margin-top: 150%;
+        margin-top: 145%;
         margin-right: 35%;
         position: absolute;
         height: 5px;
