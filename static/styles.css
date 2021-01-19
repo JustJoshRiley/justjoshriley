@@ -1,6 +1,10 @@
 body {
     background-color:rgb(218, 218, 218);
 }
+
+.device-banner {
+    display: none;
+}
 /* loading screen */
 #preloader {
     position: fixed;
@@ -72,13 +76,6 @@ body {
         -ms-transform: rotate(360deg);
         transform: rotate(360deg);
     }
-}
-.memory-text {
-    font-weight: 700;
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: 20px;
-    font-style: normal;
-    line-height: 87px;
 }
 
 /* resume modal  */
@@ -426,4 +423,156 @@ input {
     line-height: 20px;
     border:none;
     margin-left: -1.25%;
+}
+
+
+@media only screen and (max-width : 400px) and (min-width : 320px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: white;
+        padding: 0%;
+        overflow-x: hidden;
+    }
+
+    .projectsModal {
+        display: none;
+    }
+
+    .device-banner {
+        display: visible;
+        margin-bottom: 0%;
+        height: 10vh;
+        width: 100vw;
+        position: absolute;
+        background-color: cadetblue;
+    }
+
+    .container {
+        width: 100vw;
+        height: 100vh;
+        background-color: white;
+        margin-left: 0%;
+    }
+    
+    .home-button {
+        display: none;
+        position: fixed;
+        top: 0%;
+    }
+    
+    .card-header  {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        scroll-behavior: smooth;
+    }
+
+    .memoji-img {
+        margin-right: 45%;
+        /* margin-top: 0%; */
+        height: 35vh;
+        width: auto;
+        /* position: absolute; */
+    }
+
+    .header-info {
+        /* margin-top: 50%; */
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 140%;
+        width: 90vw;
+        margin-left: 0;
+        margin-top: 25%;
+        text-align: center;
+    }
+
+    .social-links {
+        margin-top: 145%;
+        margin-right: 35%;
+        position: absolute;
+        height: 5px;
+        width: 5px;
+    }
+
+    .social-link {
+        margin-right: 500%;
+    }
+
+    /* for info sections  */
+    .right {
+        margin-top: 550px;
+    }
+
+    .info {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width : 480px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: white;
+        padding: 0%;
+        overflow-x: hidden;
+    }
+
+    .container {
+        width: 95vw;
+        height: 100vh;
+        background-color: white;
+        margin-left: 0%;
+    }
+    
+    .home-button {
+        display: none;
+    }
+
+    .card-header  {
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+    }
+
+    .memoji-img {
+        /* margin-left: 15%; */
+        margin-top: -5%;
+        height: 30vh;
+        width: auto;
+        position: absolute;
+    }
+
+    .header-info {
+        margin-top: 70%;
+        font-weight: 400;
+        font-size: 45px;
+        line-height: 140%;
+        width: 90vw;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .social-links {
+        bottom: 10%;
+        margin-right: 32%;
+        position: absolute;
+        height: 5px;
+        width: 5px;
+    }
+
+    .social-link {
+        margin-right: 500%;
+    }
 }
