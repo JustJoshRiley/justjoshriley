@@ -2,7 +2,7 @@
 
 
 <a href="https://justjoshriley.github.io/justjoshriley/">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=justjoshriley&layout=compact&theme=nord" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=justjoshriley&layout=compact&text_color=000&icon_color=000&bg_color=0,ea6161,ffc64d,fffc4d,52fa5a&theme=graywhite" />
 </a>
 <a href="https://justjoshriley.github.io/justjoshriley/">
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=justjoshriley&hide=issues&count_private=true&theme=nord&show_icons=trues" />
@@ -15,7 +15,7 @@
 ![Profile views](https://gpvc.arturio.dev/justjoshriley)
 
 
-<img src="https://capsule-render.vercel.app/api?type=egg&color=timeGradient&fontAlign=50&animation=twinkling&text=%20&height=300&fontSize=100&textBg=transparent%" />
+
 <!--
 **JustJoshRiley/justjoshriley** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
