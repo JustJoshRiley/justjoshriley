@@ -1,4 +1,4 @@
-# Hi there <img src="https://github.com/JustJoshRiley/justjoshriley/blob/main/static/Screen%20Shot%202021-01-13%20at%2011.07.31%20PM.png?raw=true" width="25%">
+# Hi there <img src="https://github.com/JustJoshRiley/justjoshriley/blob/main/static/Screen%20Shot%202021-01-13%20at%2011.07.31%20PM.png?raw=true" width="100px">
 
 
 <a href="https://justjoshriley.github.io/justjoshriley/">
