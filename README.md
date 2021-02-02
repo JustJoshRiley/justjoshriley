@@ -2,10 +2,10 @@
 
 
 <a href="https://justjoshriley.github.io/justjoshriley/">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=justjoshriley&layout=compact&text_color=000&icon_color=000&theme=radical" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=justjoshriley&layout=compact&text_color=white&icon_color=white&theme=radical" />
 </a>
 <a href="https://justjoshriley.github.io/justjoshriley/">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=justjoshriley&hide=issues&count_private=true&text_color=000&icon_color=fff&theme=radical" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=justjoshriley&hide=issues&count_private=true&text_color=white&icon_color=white&theme=radical" />
 </a>
 
 
