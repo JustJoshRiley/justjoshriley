@@ -13,6 +13,9 @@
 
 ### Misc.
 ![Profile views](https://gpvc.arturio.dev/justjoshriley)
+
+
+<img src="https://capsule-render.vercel.app/api?type=egg&color=timeGradient&&rotate=-180fontAlign=50&animation=twinkling&text=%20&height=300&fontSize=100&textBg=transparent%" />
 <!--
 **JustJoshRiley/justjoshriley** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
