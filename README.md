@@ -1,5 +1,5 @@
 <a href="https://justjoshriley.github.io/justjoshriley/">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=justjoshriley&hide=issues,stars&count_private=true&theme=nord&show_icons=trues" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=justjoshriley&hide=issues&count_private=true&theme=nord&show_icons=trues" />
 </a>
 <a href="https://justjoshriley.github.io/justjoshriley/">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=justjoshriley&layout=compact&theme=nord" />
