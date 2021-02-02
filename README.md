@@ -1,11 +1,11 @@
-<img src="https://capsule-render.vercel.app/api?type=egg&color=timeGradient&fontAlign=50&animation=twinkling&text=Hey, I'm Josh!%20&height=300&fontSize=100&textBg=transparent&text_color=000%" />
+<img src="https://capsule-render.vercel.app/api?type=egg&color=black&fontAlign=50&animation=twinkling&text=Hey, I'm Josh!%20&height=300&fontSize=100&textBg=transparent&text_color=000%" />
 
 
 <a href="https://justjoshriley.github.io/justjoshriley/">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=justjoshriley&layout=compact&text_color=000&icon_color=000&theme=graywhite" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=justjoshriley&layout=compact&text_color=000&icon_color=000&theme=radical" />
 </a>
 <a href="https://justjoshriley.github.io/justjoshriley/">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=justjoshriley&hide=issues&count_private=true&text_color=000&icon_color=fff&theme=graywhite" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=justjoshriley&hide=issues&count_private=true&text_color=000&icon_color=fff&theme=radical" />
 </a>
 
 
