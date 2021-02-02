@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=egg&color=timeGradient&fontAlign=50&animation=twinkling&text=Hey, I'm Josh!%20&height=300&fontSize=100&textBg=transparent%" />
+<img src="https://capsule-render.vercel.app/api?type=egg&text_color=000&color=timeGradient&fontAlign=50&animation=twinkling&text=Hey, I'm Josh!%20&height=300&fontSize=100&textBg=transparent%" />
 
 
 <a href="https://justjoshriley.github.io/justjoshriley/">
