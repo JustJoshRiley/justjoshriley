@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=cylinder&color=timeGradient&fontAlign=50&animation=twinkling&text=%20asdf%20&height=300&fontSize=100&textBg=true)
+![header](https://capsule-render.vercel.app/api?type=cylinder&color=timeGradient&fontAlign=50&animation=twinkling&text=Hey, I'm Josh!%20&height=300&fontSize=100&textBg=true)
 
 
 <a href="https://justjoshriley.github.io/justjoshriley/">
