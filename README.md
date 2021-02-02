@@ -15,7 +15,7 @@
 ![Profile views](https://gpvc.arturio.dev/justjoshriley)
 
 
-<img transform="rotate(180deg)" src="https://capsule-render.vercel.app/api?type=egg&color=timeGradient&fontAlign=50&animation=twinkling" />
+<img transform="rotate(90deg)" src="https://capsule-render.vercel.app/api?type=egg&color=timeGradient&fontAlign=50&animation=twinkling" />
 <!--
 **JustJoshRiley/justjoshriley** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
