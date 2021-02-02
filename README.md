@@ -1,8 +1,8 @@
 <a href="https://justjoshriley.github.io/justjoshriley/">
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=justjoshriley&hide=issues,stars&count_private=true&theme=nord&show_icons=trues" />
 </a>
-<a href="https://github.com/anuraghazra/convoychat">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=convoychat" />
+<a href="https://justjoshriley.github.io/justjoshriley/">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=justjoshriley=compactt&theme=nord" />
 </a>
 
 
