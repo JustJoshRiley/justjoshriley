@@ -11,7 +11,8 @@
 
 
 
-
+### Misc.
+![Profile views](https://gpvc.arturio.dev/justjoshriley)
 <!--
 **JustJoshRiley/justjoshriley** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
