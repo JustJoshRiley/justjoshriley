@@ -1,5 +1,4 @@
-[![Joshua's GitHub stats](https://github-readme-stats.vercel.app/api?username=justjoshriley&count_private=true&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
-
+[![Joshua's GitHub stats](https://github-readme-stats.vercel.app/api?username=justjoshriley&count_private=true&theme=radical)]
 
 ### Hi there 👋
 
