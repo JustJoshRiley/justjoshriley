@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=egg&color=timeGradient&fontAlign=50&animation=fadeIn&text=Hey, I'm Josh!%20&width=max-content&height=150&fontSize=100&textBg=transparent%" />
+<img src="https://capsule-render.vercel.app/api?type=egg&color=timeGradient&fontAlign=50&animation=fadeIn&text=Hey, I'm Josh!%20&width=max-content&height=300&fontSize=100&textBg=transparent%" />
 
 # About:
 - 🖥 Currently: I am a 3rd year student <a href="https://www.makeschool.com/portfolio/joshua-riley">@ Make School</a>
