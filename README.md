@@ -1,13 +1,13 @@
 <img src="https://capsule-render.vercel.app/api?type=egg&color=timeGradient&fontAlign=50&animation=fadeIn&text=Hey, I'm Josh!%20&height=300&fontSize=100&textBg=transparent%" />
 
-##About:
+## About:
 - 🖥 I'm a 3rd year student <a href="https://www.makeschool.com/portfolio/joshua-riley">@Make School</a>
 - 🤔 I’m looking for help with React Native
 - 🌱 I’m currently learning Data Structures and Authentication
 - 😄 Pronouns: He/Him/His
 
 
-##Analytics 📈:
+## Analytics 📈:
 
 <a href="https://justjoshriley.github.io/justjoshriley/">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=justjoshriley&layout=compact&theme=vue" />
