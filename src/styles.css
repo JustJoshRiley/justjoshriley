@@ -19,6 +19,7 @@ body {
     padding: 0%;
     display: flex;
     justify-content: center;
+    align-items: flex-start;
 }
 /* all rows */
 .row {
@@ -171,6 +172,7 @@ a {
 }
 .projects {
     margin: auto;
+    display: flex;
 }
 /* loading screen */
 #preloader {
@@ -350,8 +352,6 @@ input {
     }
     .projects {
         margin: auto;
-    }
-    .projects {
         position: sticky;
         background-color: white;
         display: flex;
@@ -361,7 +361,6 @@ input {
     .projects-header {
         width: 100%;
     }
-
 }
 
 /* Small devices (portrait tablets and large phones, 600px and until Medium) */
