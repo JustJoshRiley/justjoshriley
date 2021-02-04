@@ -3,6 +3,8 @@
         "Grotesk",
         "Hoya",
         "Memoji",
-        "acumin"
+        "acumin",
+        "firestore",
+        "msapplication"
     ]
 }
