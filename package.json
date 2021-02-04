@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "<img src=\"https://capsule-render.vercel.app/api?type=egg&color=timeGradient&fontAlign=50&animation=fadeIn&text=Hey, I'm Josh!%20&height=300&fontSize=100&textBg=transparent%\" />",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustJoshRiley/justjoshriley.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JustJoshRiley/justjoshriley/issues"
+  },
+  "homepage": "https://github.com/JustJoshRiley/justjoshriley#readme",
+  "dependencies": {
+    "firebase": "^8.2.5"
+  }
+}
