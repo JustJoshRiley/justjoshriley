@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/JustJoshRiley/justjoshriley#readme",
   "dependencies": {
-    "firebase": "^8.2.5"
+    "firebase": "^8.2.5",
+    "foundation-sites": "^6.6.3"
   }
 }

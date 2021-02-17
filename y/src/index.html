@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hi! I'm Joshua Riley | Software Developer</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon_package_v0/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon_package_v0/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon_package_v0/favicon-16x16.png">
+    <link rel="manifest" href="/favicon_package_v0/site.webmanifest">
+    <link rel="mask-icon" href="/favicon_package_v0/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="description" content="I am a 3rd year C.S. student in San Francisco, Ca. My passion lies in Frontend Design, Product Management, and creating responsive fullstack web applications." />
+    <meta name="robots" content="index, follow">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="./styles.css" rel="stylesheet">
+    <!-- adobe font  -->
+    <link rel="stylesheet" href="https://use.typekit.net/nsf5juc.css">
+    <!-- google font for header  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
+    <!-- google icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- animations  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <script src="https://kit.fontawesome.com/2018f464fc.js" crossorigin="anonymous"></script>
+
+
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="modal contactMe fade" id="contactMe">
+                    <div class="modal-dialog">
+                        <div class="modal-content " role="document">
+                            <div class="modal-body">
+                                <div class="row"><button class="btn" data-dismiss="modal">X</button></div>
+                                <div class="row">
+                                    <form class="modal-form" method="POST" action="https://api.formcake.com/api/form/f661e74a-31dc-4ed3-8644-b423afc9ce06/submission">
+                                        <div class="form-container">
+                                            <h1>Send me a message!</h1>
+                                            <input type="text" name="name" class="question" id="name" required autocomplete="off" />
+                                            <label for="name">Name<span></span></label>
+                                            <input type="tel" name="name" class="question" id="phone-number" required autocomplete="off" />
+                                            <label for="phone-number">Number<span></span></label>
+                                            <input type="text" name="name" class="question" id="subject" required autocomplete="off" />
+                                            <label for="subject">Subject<span></span></label>
+                                            <input type="text" name="name" class="question" id="message" required autocomplete="off" />
+                                            <label for="message">What's your Message?<span></span></label>
+                                            <input type="submit" value="Send It!" />
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <nav class="container-fluid animate__animated animate__bounceInRight">
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link" id="about-link" aria-current="page" href="./index.html" href="#about">About.</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="projects-link" data-toggle="tab" href="#projects">Projects.</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link " id="contact-link " data-toggle="modal " data-target="#contactMe " style="outline: none; " href="#contact ">Contact.</a>
+            </li>
+        </ul>
+    </nav>
+    <article>
+        <div class="row img-style ">
+            <img class='Josh-avatar' src='https://avataaars.io/?avatarStyle=Transparent&topType=ShortHairDreads01&accessoriesType=Blank&hairColor=Black&facialHairType=BeardLight&facialHairColor=Black&clotheType=Hoodie&clotheColor=PastelRed&eyeType=Happy&eyebrowType=UpDownNatural&mouthType=Smile&skinColor=DarkBrown'
+            />
+        </div>
+        <div class="row info ">
+            <div class="header-info-box " id="header-info-box ">
+                <h1 class="header-info ">Hi there. I'm Josh!</h1>
+                <h5 class="header-text ">I specialize in Front End Development and complete my BASc in 2022.</h5>
+            </div>
+        </div>
+
+    </article>
+
+    <div class="tab-content ">
+
+        <div id="landing " class="tab-pane animate__animated animate__rotateInUpRight ">
+            <h3>HOME</h3>
+            <p>Some content.</p>
+        </div>
+
+        <div id="about " class="tab-pane fade in ">
+            <h3>Menu 1</h3>
+            <p>Some content in menu 1.</p>
+        </div>
+
+        <div id="projects " class="tab-pane animate__animated animate__rotateInUpRight ">
+            <section id="team " class="pb-5 ">
+                <div class="container ">
+                    <h5 class="section-title h1 ">EXPLORE MY WORK!</h5>
+                    <div class="row ">
+                        <!-- Team member -->
+                        <div class="col-xs-12 col-sm-6 col-md-4 ">
+                            <div class="image-flip ">
+                                <div class="mainflip flip-0 ">
+                                    <div class="frontside ">
+                                        <div class="card ">
+                                            <div class="card-body text-center ">
+                                                <p><img class=" img-fluid " src="... " alt="card image "></p>
+                                                <h4 class="card-title ">Samuel Madrigal</h4>
+                                                <p class="card-text ">Back End Lead</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="backside ">
+                                        <div class="card ">
+                                            <div class="card-body text-center mt-4 ">
+                                                <h4 class="card-title ">Hoya!</h4>
+                                                <p class="card-text ">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                                                <a class="btn btn-primary btn-sm "><i class="fa fa-plus "></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end of Team member -->
+                        <!-- Team member -->
+                        <div class="col-xs-12 col-sm-6 col-md-4 ">
+                            <div class="image-flip ">
+                                <div class="mainflip flip-0 ">
+                                    <div class="frontside ">
+                                        <div class="card ">
+                                            <div class="card-body text-center ">
+                                                <p><img class=" img-fluid " src="... " alt="card image "></p>
+                                                <h4 class="card-title ">Jordan Torres</h4>
+                                                <p class="card-text ">Git Master</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="backside ">
+                                        <div class="card ">
+                                            <div class="card-body text-center mt-4 ">
+                                                <h4 class="card-title ">Hoya!</h4>
+                                                <p class="card-text ">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                                                <a class="btn btn-primary btn-sm "><i class="fa fa-plus "></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end of Team member -->
+                        <!-- Team member -->
+                        <div class="col-xs-12 col-sm-6 col-md-4 ">
+                            <div class="image-flip ">
+                                <div class="mainflip flip-0 ">
+                                    <div class="frontside ">
+                                        <div class="card ">
+                                            <div class="card-body text-center ">
+                                                <p><img class=" img-fluid " src="... " alt="card image "></p>
+                                                <h4 class="card-title ">Jose Salazar</h4>
+                                                <p class="card-text ">Design Lead</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="backside ">
+                                        <div class="card ">
+                                            <div class="card-body text-center mt-4 ">
+                                                <h4 class="card-title ">Hoya!</h4>
+                                                <p class="card-text ">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                                                <a class="btn btn-primary btn-sm "><i class="fa fa-plus "></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end of Team member -->
+                        <!-- Team member -->
+                        <div class="col-xs-12 col-sm-6 col-md-4 ">
+                            <div class="image-flip ">
+                                <div class="mainflip flip-0 ">
+                                    <div class="frontside ">
+                                        <div class="card ">
+                                            <div class="card-body text-center ">
+                                                <p><img class=" img-fluid " src="... " alt="card image "></p>
+                                                <h4 class="card-title ">Joshua Riley</h4>
+                                                <p class="card-text ">Front End Lead</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="backside ">
+                                        <div class="card ">
+                                            <div class="card-body text-center mt-4 ">
+                                                <h4 class="card-title ">Hoya!</h4>
+                                                <p class="card-text ">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                                                <a class="btn btn-primary btn-sm "><i class="fa fa-plus "></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end of Team member -->
+                        <!-- Team member -->
+                        <div class="col-xs-12 col-sm-6 col-md-4 ">
+                            <div class="image-flip ">
+                                <div class="mainflip flip-0 ">
+                                    <div class="frontside ">
+                                        <div class="card ">
+                                            <div class="card-body text-center ">
+                                                <p><img class=" img-fluid " src="... " alt="card image "></p>
+                                                <h4 class="card-title ">Sid</h4>
+                                                <p class="card-text ">Scrum Master</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="backside ">
+                                        <div class="card ">
+                                            <div class="card-body text-center mt-4 ">
+                                                <h4 class="card-title ">Hoya!</h4>
+                                                <p class="card-text ">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                                                <a class="btn btn-primary btn-sm "><i class="fa fa-plus "></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end of Team member -->
+                        <!-- Team member -->
+                        <div class="col-xs-12 col-sm-6 col-md-4 ">
+                            <div class="image-flip ">
+                                <div class="mainflip flip-0 ">
+                                    <div class="frontside ">
+                                        <div class="card ">
+                                            <div class="card-body text-center ">
+                                                <p><img class=" img-fluid " src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMQCTLHLWmBrobpFTsbP5Dwmc_P0hpTTmyXSKKHzUe1jGp84qwgh-XcqRySA&usqp=CAc " alt="card image "></p>
+                                                <h4 class="card-title ">Daniel</h4>
+                                                <p class="card-text ">Customer Care</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="backside ">
+                                        <div class="card ">
+                                            <div class="card-body text-center mt-4 ">
+                                                <h4 class="card-title ">Hoya!</h4>
+                                                <p class="card-text ">This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.This is basic card with image on top, title, description and button.</p>
+                                                <a class="btn btn-primary btn-sm "><i class="fa fa-plus "></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end of Team member -->
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </div>
+
+
+
+
+
+    <nav class="navbar fixed-bottom bottom_nav animate__animated animate__bounceInLeft ">
+
+        <div class="container-fluid ">
+            <a class=" bottom_header " data-toggle="tab " href="#landing ">Joshua W. Riley</a>
+            <div class="social-box ">
+                <a class="social-link " href="https://justjoshriley.medium.com " target="_blank ">
+                    <i class="fab fa-medium-m fa-lg "></i>
+                </a>
+                <a class="social-link " href="https://www.linkedin.com/in/joshua-william-riley/ " target="_blank ">
+                    <i class="fab fa-linkedin-in fa-lg "></i>
+                </a>
+                <a class="social-link " href="https://github.com/JustJoshRiley " target="_blank ">
+                    <i class="fab fa-github fa-lg "></i>
+                </a>
+                <a class="social-link " href="https://drive.google.com/file/d/1ipY5KQ9k8Cmn8GBFoOLvYTxEID2PDTR0/view?usp=sharing " target="_blank ">
+                    <i class="fas fa-file-pdf fa-lg "></i>
+                </a>
+            </div>
+        </div>
+
+    </nav>
+    <!-- for Firebase -->
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/8.2.5/firebase-app.js "></script>
+    <script src="/index.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js " integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW " crossorigin="anonymous "></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
+
+    <!-- 
+        initialize the SDK after all desired features are loaded, set useEmulator to false
+        to avoid connecting the SDK to running emulators.
+        -->
+    <script defer src="/__/firebase/init.js?useEmulator=true "></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const loadEl = document.querySelector('#load');
+            try {
+                let app = firebase.app();
+                let features = [
+                    'auth',
+                    'database',
+                    'firestore',
+                    'functions',
+                    'messaging',
+                    'storage',
+                    'analytics',
+                    'remoteConfig',
+                    'performance',
+                ].filter(feature => typeof app[feature] === 'function');
+                loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
+            } catch (e) {
+                console.error(e);
+                loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
+            }
+        });
+    </script>
+</body>
+
+</html>
+
+</html>
