@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap');
+* {}
+
 body {
     background-color: #f6f6f6;
     margin: 0;
@@ -135,12 +138,22 @@ nav {
     font-size: 6vw;
 }
 
-.header-text {
+.header-text-container {
     width: 70%;
-    font-size: 2vw;
-    line-height: 45px;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2.5%;
     background-color: rgb(192, 250, 255, 0.75);
     border-radius: 10px;
+}
+
+.header-text {
+    width: 100%;
+    height: 100%;
+    font-size: 2.5vw;
+    line-height: 45px;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -176,7 +189,6 @@ nav {
     width: 100vw;
     margin-top: -50%;
     background: #eee;
-    /* padding-top: 10%; */
     position: absolute;
 }
 
@@ -306,185 +318,6 @@ section .section-title {
     width: 120px;
     height: 120px;
     border-radius: 50%;
-}
-
-
-/* contact me form modal  */
-
-.modal {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: transparent;
-    height: 100vh;
-}
-
-.modal-content {
-    height: 90%;
-    width: 100%;
-    overflow: hidden;
-    border-radius: 20px;
-}
-
-.modal-form {
-    height: auto;
-    width: 100%;
-    padding: 5%;
-}
-
-.form-container {
-    width: auto;
-    height: 100%;
-    align-self: center;
-}
-
-label {
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 100%;
-}
-
-h1 {
-    font-size: 28px;
-}
-
-input,
-span {
-    font-family: 'Ubuntu', sans-serif;
-    display: block;
-    margin: 10px;
-    padding: 5px;
-    border: none;
-    font-size: 15px;
-}
-
-input:focus {
-    outline: 0;
-}
-
-input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-}
-
-
-/* form */
-
-input.question {
-    font-size: 48px;
-    font-weight: 300;
-    border-radius: 2px;
-    margin: 0;
-    border: none;
-    width: 80%;
-    background: rgba(0, 0, 0, 0);
-    transition: padding-top 0.2s ease, margin-top 0.2s ease;
-    /* overflow-x: hidden; Hack to make "rows" attribute apply in Firefox. */
-}
-
-
-/* Underline and Placeholder */
-
-input.question+label {
-    display: block;
-    position: relative;
-    white-space: nowrap;
-    padding: 0;
-    margin: 0;
-    width: 10%;
-    border-top: 1px solid red;
-    -webkit-transition: width 0.4s ease;
-    transition: width 0.4s ease;
-    height: 0px;
-}
-
-input.question:focus+label {
-    width: 80%;
-}
-
-input.question:focus,
-input.question:valid {
-    padding-top: 35px;
-}
-
-input.question:focus+label>span,
-input.question:valid+label>span {
-    top: -100px;
-    font-size: 22px;
-    color: #333;
-}
-
-input.question:valid+label,
-textarea.question:valid+label {
-    border-color: green;
-}
-
-input.question:invalid,
-textarea.question:invalid {
-    box-shadow: none;
-}
-
-input.question+label>span,
-textarea.question+label>span {
-    font-weight: 300;
-    margin: 0;
-    position: absolute;
-    color: #8F8F8F;
-    font-size: 48px;
-    top: -66px;
-    left: 0px;
-    z-index: -1;
-    -webkit-transition: top 0.2s ease, font-size 0.2s ease, color 0.2s ease;
-    transition: top 0.2s ease, font-size 0.2s ease, color 0.2s ease;
-}
-
-input[type="submit"] {
-    -webkit-transition: opacity 0.2s ease, 0.2s ease;
-    transition: opacity 0.2s ease, 0.2s ease;
-    display: block;
-    opacity: 0;
-    margin: 10px 0 0 0;
-    padding: 10px;
-    cursor: pointer;
-    background-color: #87D3E5;
-    width: 25vw;
-    margin-top: 10%;
-}
-
-input[type="submit"]:hover {
-    background-color: #87D3E5;
-    transition-duration: 0.4s;
-    font-weight: 400;
-    background-color: #9bedff;
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.637), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-}
-
-input[type="submit"]:active {
-    background: #999;
-}
-
-input.question:valid~input[type="submit"],
-textarea.question:valid~input[type="submit"] {
-    -webkit-animation: appear 1s forwards;
-    animation: appear 1s forwards;
-}
-
-input.question:invalid~input[type="submit"],
-textarea.question:invalid~input[type="submit"] {
-    display: none;
-}
-
-@-webkit-keyframes appear {
-    100% {
-        opacity: 1;
-    }
-}
-
-@keyframes appear {
-    100% {
-        opacity: 1;
-    }
 }
 
 
